@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'atami-oblique';
+  src: url(../fonts/Atami-Oblique.otf);
+}
+
+@font-face {
+  font-family: 'atami-light';
+  src: url(../fonts/Atami-Light.otf);
+}
+
+body {
+  font-family: 'atami-light'
+}
+
+header {
+  box-shadow: 0 3px 10px #222;
+  display: flex;
+  background-color: #E24E42;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+section {
+  width: 70%;
+}
+
+#logo {
+  background-color: #FAFAFA;
+  box-shadow: 5px 5px #222;
+  font-family: 'atami-oblique';
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  text-shadow: 3px 3px 0 #E9B000;
+}
+
+#get-started {
+  background-color: #008F95;
+  border: none;
+  box-shadow: 3px 3px #222;
+  color: #FAFAFA;
+  font-size: 40px;
+  text-shadow: 2px 2px 0 #E9B000;
+  width: 40%;
+}
+
+#get-started:hover {
+  cursor: pointer;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+}
