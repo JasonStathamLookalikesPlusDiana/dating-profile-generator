@@ -4,6 +4,7 @@
   "description": "Generates profiles for dating applications. Created during CHD 2016 in NYC.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "morgan": "^1.7.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pg-promise": "^5.3.3"
   }
 }
