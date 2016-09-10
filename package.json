@@ -1,0 +1,25 @@
+{
+  "name": "dating-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates profiles for dating applications. Created during CHD 2016 in NYC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonStathamLookalikesPlusDiana/dating-profile-generator.git"
+  },
+  "author": "Bobby King, Diana Frank, Sergey Kolchinskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonStathamLookalikesPlusDiana/dating-profile-generator/issues"
+  },
+  "homepage": "https://github.com/JasonStathamLookalikesPlusDiana/dating-profile-generator#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
