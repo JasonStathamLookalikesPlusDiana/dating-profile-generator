@@ -169,6 +169,22 @@ footer {
   color: red;
 }
 
+.what-we-do{
+  text-align: center;
+}
+
+h2.what-we-do{
+  font-size: 2em
+}
+
+p.what-we-do{
+  font-size: 1.3em;
+}
+
+p.better{
+  font-weight: bold;
+}
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
