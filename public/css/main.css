@@ -185,6 +185,10 @@ p.better{
   font-weight: bold;
 }
 
+.photo-submit{
+  display: none;
+}
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
